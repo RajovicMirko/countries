@@ -1,0 +1,12 @@
+#layout {
+  height: inherit;
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  & .container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}

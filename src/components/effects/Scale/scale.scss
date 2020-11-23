@@ -1,0 +1,12 @@
+@import "sass/variables";
+
+.scale {
+  border-radius: $default-border-radius;
+  flex: 1 1 100%;
+  width: 100%;
+  height: auto;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

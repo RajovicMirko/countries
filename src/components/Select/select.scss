@@ -1,0 +1,15 @@
+@import "sass/variables";
+
+.select-custom {
+  position: relative;
+  border: inherit;
+  outline: inherit;
+
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: $default-border-radius;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.router-view {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+  & header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .router-view {
+    & header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    & .flex-change {
+      flex-direction: column;
+    }
+  }
+}
