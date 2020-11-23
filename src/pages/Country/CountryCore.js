@@ -74,7 +74,7 @@ const CountryCore = () => (WrappedComponent) => {
     handleGoBack = () => this.props.history.goBack();
 
     handleBorderCountryClick = (country) => {
-      this.props.history.push(`/country/${country.name}`);
+      this.props.history.push(`/countries/country/${country.name}`);
       this.forceUpdate();
     };
 

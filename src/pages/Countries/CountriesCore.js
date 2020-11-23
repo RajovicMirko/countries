@@ -60,7 +60,9 @@ const CountriesCore = () => (WrappedComponent) => {
     };
 
     handleCardClick = async (countrie) => {
-      this.props.history.push(`/country/${countrie.name.toLowerCase()}`);
+      this.props.history.push(
+        `/countries/country/${countrie.name.toLowerCase()}`
+      );
     };
 
     handleRegionSelect = async (region) => {
