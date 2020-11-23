@@ -8,8 +8,8 @@ import Country from "../pages/Country";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Countries} />
-      <Route path="/country/:name" component={Country} />
+      <Route exact path="/countries" component={Countries} />
+      <Route path="/countries/country/:name" component={Country} />
       <Route path="/error404" component={Error404} />
       <Redirect to="/error404" />
     </Switch>
